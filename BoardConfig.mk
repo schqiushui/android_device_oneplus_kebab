@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-DEVICE_PATH := device/oneplus/kebab
+DEVICE_PATH := device/oneplus/lemonades
 
 # Architecture
 TARGET_ARCH := arm64
@@ -112,7 +112,7 @@ BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
 BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 6441926656
 BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system \
-		system_ext \
+    system_ext \
     vendor \
     product \
     odm
